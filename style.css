@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+:root {
+  font-size: 62.5%;
+}
+
+.container {
+  width: min(43.6rem, 100%);
+  margin: 0 auto;
+  /* border: 1px solid red; */
+}
+
+body,
+input,
+button,textarea {
+  font-family: "Mulish", sans-serif;
+}
+
+h1,
+h2 {
+  color: #b52184;
+  font-weight: 900;
+}
+
+h1 {
+  font-size: 3.2rem;
+}
+
+h2 {
+  font-size: 3rem;
+}
+
+p {
+  color: #312d64;
+}
+
+/* header */
+header {
+  text-align: center;
+}
+
+header img {
+  margin-bottom: 1.7rem;
+}
+header h1 {
+  margin-bottom: 0.5rem;
+}
+header p {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 3.5rem;
+}
+
+.section-cards {
+  background: linear-gradient(96deg, #343193 0%, #302c63 99.68%);
+}
+
+.section-cards .container {
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+  padding: 5.2rem 0;
+}
+
+.card {
+  margin: 0 auto;
+  background: white;
+  max-width: 36.2rem;
+  border-radius: 1.9rem;
+  padding: 2.7rem;
+}
+.card img {
+  margin-bottom: 3.3rem;
+}
+.card h2 {
+  margin-bottom: 2rem;
+}
+.card p {
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+
+.section-form h1 {
+  margin: 7.8rem 0 0 4.3rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+  margin: 4.3rem 3.9rem 6.5rem 4.3rem;
+}
+
+form input,
+textarea {
+  border-radius: 1.6rem;
+  padding: 1.2rem 1.6rem;
+  border: 1.5px solid #312d64;
+  place-content: red;
+}
+
+form input::placeholder, textarea::placeholder {
+  color: #312d64;
+  font-size: 1.6rem;
+  font-weight: 600;
+
+}
+
+
+form button {
+  width: 15.5rem;
+  padding: 1rem 1.6rem;
+  border: none;
+  border-radius: 1.6rem;
+  background: linear-gradient(96deg, #343193 0%, #302c63 99.68%);
+  font-size: 1.4rem;
+  font-weight: bold;
+  line-height: 2.4rem;
+  color: white;
+}
+
+footer {
+  background: linear-gradient(96deg, #343193 0%, #302c63 99.68%);
+  text-align: center;
+}
+
+footer p {
+  color: white;
+  font-size: 1.9rem;
+  font-weight: 600;
+  padding: 1.6rem;
+}
